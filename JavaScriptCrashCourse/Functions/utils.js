@@ -6,6 +6,11 @@ function showMessage(greetings){
 }
 
 function demoFun(){
-    const myHello = document.getElementById('myP').textContent = 'greetings';
-    myHello.style.color = 'blue';
+    const myP = document.getElementById('myP');
+    myP.textContent = 'Greetings!';
+    myP.style.color = 'blue';
+    
+    const myHello = document.getElementsByClassName('myHello');
+    console.log(myHello);
+    myHello[0].classList.add('d-none');
 }
