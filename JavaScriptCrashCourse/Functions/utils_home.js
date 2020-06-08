@@ -3,4 +3,5 @@
 let greeter = 'It\'s fun learning JavaScript!';
 showMessage(greeter);
 
+//Another function call
 demoFun();
