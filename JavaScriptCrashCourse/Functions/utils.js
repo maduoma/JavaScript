@@ -6,11 +6,6 @@ function showMessage(greetings){
 }
 
 function demoFun(){
-     const myHello = document.getElementById('myP').textContent = 'greetings';
-     myHello.style.color = 'blue';
-    document.getElementsByTagName('p').textContent = 'tag name';
-    document.getElementsByName('p').textContent = 'by name';
-    //const myHello = document.getElementsByClassName('myHello');
-    //myHello.style.color = 'red';
-    //document.getElementsByTagNameNS
+    const myHello = document.getElementById('myP').textContent = 'greetings';
+    myHello.style.color = 'blue';
 }
