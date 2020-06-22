@@ -26,7 +26,7 @@ function changeElementColor() {
 
 }
 
-function demo1() {
+function greet() {
     //document.write('<dl><dd>');
 
     let day = new Date();
@@ -59,4 +59,4 @@ function demo1() {
 }
 changeElementColor();
 changeStateAtIntervals();
-demo1();
+greet();
