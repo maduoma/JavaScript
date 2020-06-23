@@ -44,10 +44,10 @@ function greet() {
         document.write('Good late afternoon!');
     } else if ((hr === 20)) {
         document.write('Good Night');
-        document.getElementById('Night').style.display = 'inline';
+        document.getElementById('night-container').style.display = 'inline';
     } else if ((hr === 21)) {
         document.write('Good Night');
-        document.getElementById('Night').style.display = 'none';
+        document.getElementById('night-container').style.display = 'none';
     } else if ((hr === 22)) {
         document.write('Good Night');
     } else if (hr === 23) {
