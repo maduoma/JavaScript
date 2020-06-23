@@ -44,7 +44,7 @@ function greet() {
         document.write('Good late afternoon!');
     } else if ((hr === 20)) {
         document.write('Good Night');
-        document.getElementById('Night').style.display = '';
+        document.getElementById('Night').style.display = 'inline';
     } else if ((hr === 21)) {
         document.write('Good Night');
         document.getElementById('Night').style.display = 'none';
