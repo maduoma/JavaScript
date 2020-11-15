@@ -14,17 +14,17 @@ if (
   peterAverageScore > johnAverageScore &&
   peterAverageScore > samuelAverageScore
 ) {
-  console.log("Pete's with " + peterAverageScore);
+  console.log("Pete's with " + peterAverageScore + " points!");
 } else if (
   samuelAverageScore > johnAverageScore &&
   samuelAverageScore > peterAverageScore
 ) {
-  console.log("Samuel's wins with " + samuelAverageScore);
+  console.log("Samuel's wins with " + samuelAverageScore + " points!");
 } else if (
   johnAverageScore === peterAverageScore &&
   peterAverageScore === samuelAverageScore
 ) {
-  console.log("They draw with " + johnAverageScore);
+  console.log("They draw with " + johnAverageScore + " points!");
 } else {
   console.log("There's no match!");
 }
