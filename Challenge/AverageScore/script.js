@@ -9,7 +9,7 @@ if (
   johnAverageScore > peterAverageScore &&
   johnAverageScore > samuelAverageScore
 ) {
-  console.log("John's wins with " + johnAverageScore);
+  console.log("John's wins with " + johnAverageScore + " points!");
 } else if (
   peterAverageScore > johnAverageScore &&
   peterAverageScore > samuelAverageScore
