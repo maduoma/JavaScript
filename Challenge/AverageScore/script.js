@@ -1,4 +1,4 @@
-const johnAverageScore = (30 + 30 + 50) / 3;
+const johnAverageScore = (30 + 30 + 440) / 3;
 const peterAverageScore = (30 + 30 + 50) / 3;
 const samuelAverageScore = (30 + 30 + 50) / 3;
 console.log(johnAverageScore, peterAverageScore, samuelAverageScore);
