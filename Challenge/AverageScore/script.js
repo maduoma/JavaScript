@@ -21,5 +21,5 @@ if (
 ) {
   console.log("Samuel's wins with " + samuelAverageScore + " points!");
 } else {
-  console.log("There's a draw with " + johnAverageScore + " points!");
+  console.log("There's a draw!");
 }
