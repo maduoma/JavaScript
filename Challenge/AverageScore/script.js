@@ -1,6 +1,6 @@
 "use strict";
 
-const johnAverageScore = (30 + 30 + 50) / 3;
+const johnAverageScore = (30 + 30 + 5) / 3;
 const peterAverageScore = (30 + 30 + 50) / 3;
 const samuelAverageScore = (30 + 30 + 50) / 3;
 console.log(johnAverageScore, peterAverageScore, samuelAverageScore);
@@ -20,11 +20,6 @@ if (
   samuelAverageScore > peterAverageScore
 ) {
   console.log("Samuel's wins with " + samuelAverageScore + " points!");
-} else if (
-  johnAverageScore === peterAverageScore &&
-  peterAverageScore === samuelAverageScore
-) {
-  console.log("They draw with " + johnAverageScore + " points!");
 } else {
-  console.log("There's no match!");
+  console.log("There's a draw with " + johnAverageScore + " points!");
 }
