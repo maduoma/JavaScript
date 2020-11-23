@@ -23,7 +23,3 @@ if (
 } else {
   console.log("There's a draw!");
 }
-
-function sayHello() {
-  return <h1>"Hell"</h1>;
-}
