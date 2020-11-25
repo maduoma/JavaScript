@@ -11,6 +11,25 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde fugit
       natus quibusdam, harum magnam id reprehenderit vero suscipit molestiae?
     </p>
+    <button onclick="alert('Hello!')">Click Me</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
   </body>
   <script src="/AverageScore/script.js"></script>
+  <script>
+    document.querySelectorAll(".btn").forEach((item) => {
+      item.addEventListener("click", () => {
+        alert("This is good!");
+      });
+    });
+  </script>
+  <script>
+    console.log({
+      name: "Madu",
+    });
+  </script>
 </html>
