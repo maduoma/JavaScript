@@ -1,8 +1,8 @@
-//Define an array of studentd\s
+//Define an array of students
 const students = ["Henry", "Ada", "Bright", "John", "Emeka"];
 //Write all the students to the webpage
 document.writeln(students);
-// Log students to the console
+// Log all students to the console
 console.log(students);
-// Log students at index 2 to the console
+// Log the student at index 2 to the console
 console.log(students[2]);
