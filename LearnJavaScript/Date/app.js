@@ -1,4 +1,4 @@
-// Months of the year
+// Array of Months of the year
 const months = [
   "January",
   "February",
@@ -14,7 +14,7 @@ const months = [
   "December",
 ];
 
-// Days of the week
+// Array of Days of the week
 const days = [
   "Monday",
   "Tuesday",
@@ -43,5 +43,5 @@ const year = date.getFullYear();
 console.log(year);
 // Putting all together
 const today = `${days[day]}, ${todaysDate} ${months[month]} ${year}.`;
-//Display on the page (document) of the browser
+// Display/output on the browser page (document)
 document.body.innerHTML = today;
