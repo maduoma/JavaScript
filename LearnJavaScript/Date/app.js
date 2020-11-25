@@ -27,6 +27,7 @@ const days = [
 
 // Define Date object and log it to the console
 const date = new Date();
+//const date = new Date("1/12/2004");
 console.log(date);
 //Get day and log it to the console
 const day = date.getDay();
@@ -40,7 +41,7 @@ console.log(month, months[month]);
 // Get full year and log it to the console
 const year = date.getFullYear();
 console.log(year);
-
+// Putting all together
 const today = `${days[day]}, ${todaysDate} ${months[month]} ${year}.`;
-
+//Display on the page (document) of the browser
 document.body.innerHTML = today;
