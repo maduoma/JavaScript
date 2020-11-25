@@ -25,19 +25,19 @@ const days = [
   "Sunday",
 ];
 
-// Define Date object
+// Define Date object and log it to the consoles
 const date = new Date();
 console.log(date);
-//Get day
+//Get day and log it to the consoles
 const day = date.getDay();
 console.log(day, days[day]);
-// Get today's date
+// Get today's date and log it to the consoles
 const todaysDate = date.getDate();
 console.log(todaysDate);
-// Get month
+// Get month and log it to the consoles
 const month = date.getMonth();
 console.log(month, months[month]);
-// Get full year
+// Get full year and log it to the consoles
 const year = date.getFullYear();
 console.log(year);
 
