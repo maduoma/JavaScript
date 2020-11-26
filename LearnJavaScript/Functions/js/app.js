@@ -20,10 +20,10 @@ const anotherValue = function (value) {
   const myValue = value * 2.54;
   console.log("The value in cm is " + myValue + "cm");
   return myValue;
-};
+}; //(10000); //This is another way to call function expression just immediadiately after the function expression.
 const width2 = anotherValue(90);
-const height2 = anotherValue(80);
-const dimensions2 = [width2, height2];
+//An array can take any thing including a function as shown here in place of const height2 = anotherValue(90).
+const dimensions2 = [width2, anotherValue(80)];
 console.log(dimensions2);
 
 //Arrow function
