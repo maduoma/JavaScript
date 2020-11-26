@@ -3,7 +3,7 @@
 //Parameterized function declaration
 function calculate(value) {
   const myValue = value * 2.54;
-  console.log("The value in cm is " + value * 2.54 + "cm");
+  console.log("The value in cm is " + myValue + "cm");
   return myValue;
 }
 //Method invocatuion
