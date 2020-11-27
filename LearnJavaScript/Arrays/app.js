@@ -16,9 +16,11 @@ console.log(names.length);
  * adding name(s) to names array and logging same to the console
  *
  */
+//One way of adding to the array
 names[1] = "Amaka";
 console.log(names);
 console.log(names.length);
+//Another way of adding to the array
 names[names.length] = "Chuku";
 console.log(names);
 console.log(names.length);
