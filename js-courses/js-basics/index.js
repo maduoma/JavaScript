@@ -89,18 +89,18 @@ var hour = new Date(
 //let dateTime = new Date();
 //let hour = 10;
 if (hour >= 6 && hour < 12) console.log("Good morning!");
-else if (hour >= 12 && hour < 6) console.log("Good afternoon!");
+else if (hour >= 12 && hour < 18) console.log("Good afternoon!");
 else console.log("Good evening!");
 
 printLabel("AM/PM Date format");
 function formatAMPM(date) {
-  var hours = date.getHours();
-  var minutes = date.getMinutes();
-  var ampm = hours >= 12 ? "pm" : "am";
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let ampm = hours >= 12 ? "pm" : "am";
   hours = hours % 12;
   hours = hours ? hours : 12; // the hour '0' should be '12'
-  minutes = minutes < 10 ? "0" + minutes : minutes;
-  var strTime = `${hours}:${minutes}${ampm}`;
+  minutes = minutes < 10 ? `0${minutes}` : minutes;
+  let strTime = `${hours}:${minutes}${ampm}`;
   return strTime;
 }
 console.log(formatAMPM(new Date()));
