@@ -108,3 +108,41 @@ printLabel("For loop in JavaScript");
 for (let i = 1; i < 6; i++) {
   console.log("Hello World!", i);
 }
+printLabel("Function that takes 2 numbers and return the largest");
+max(3, 3);
+function max(num1, num2) {
+  //let maxNum = Math.max(num1, num2);
+  //console.log(maxNum);
+  if (num1 > num2) return console.log(num1);
+  return console.log(num2);
+}
+
+printLabel("Landscape");
+let state = isLandscape(5, 4);
+console.log(state);
+function isLandscape(width, height) {
+  return width > height;
+}
+
+printLabel("FizzBuzz");
+fizzBuzz(2);
+function fizzBuzz(input) {
+  if (typeof input !== "number") return console.log(NaN);
+  if (input % 3 === 0 && input % 5 === 0) return console.log("FizzBuzz");
+  if (input % 3 === 0) return console.log("Fizz");
+  if (input % 5 === 0) return console.log("Buzz");
+  // if (input % 3 !== 0 && input % 5 !== 0) return console.log(input);
+  return console.log(input);
+}
+// printLabel("Form Submission");
+// <form name="myForm" action="" onsubmit="return checkInp()" method="post">
+//     First name: <input type="text" name="age">
+// <input type="submit" value="Submit">
+
+// function checkInp(){
+//   let myAge = document.forms["myForm"]["age"].value;
+//   if (isNaN(myAge)) {
+//     alert("Must input numbers");
+//     return false;
+//   }
+// }
